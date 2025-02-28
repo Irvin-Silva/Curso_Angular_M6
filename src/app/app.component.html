@@ -1,0 +1,19 @@
+<div>
+  <table>
+    <thead>
+      <tr>
+        <th>Id</th>
+        <th>Nombre</th>
+        <th>Dirección</th>
+        <th>Acciones</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let user of users">
+        <td>{{user.id}}</td>
+        <td>{{user.name}}</td>
+        <td>{{user.address}}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
